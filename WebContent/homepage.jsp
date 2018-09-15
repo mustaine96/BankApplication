@@ -4,8 +4,35 @@
 <html>
 <head>
 <style>
-ul#menu li {
-    display:inline;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 7px;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 24px 26px;
+    text-decoration: none;
+}
+
+/* li a { */
+/*     display: block; */
+/*     color: white; */
+/*     text-align: center; */
+/*     padding: 14px 16px; */
+/*     text-decoration: none; */
+/* } */
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: blue;
+    color: yellow;
 }
 </style>
 <meta charset="ISO-8859-1">
